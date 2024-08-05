@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    gap: 40px;
+}
+
+.hero-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+
+.hero-image {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero-subtitle {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up-button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+}
+
+.sign-up-link {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.information-container {
+    padding: 0 40px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.card-list {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.card-item {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.card-subtitle {
+    font-size: 20px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 150px 180px;
+}
+
+.quote {
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.banner-container {
+    padding: 180px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-text h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.banner-text p {
+    color: white;
+}
+
+.banner-button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
